@@ -1,8 +1,8 @@
-# The Local Bubble is a Local Chimney
+# A 3D Map of the Local Bubble's Magnetic Field
 
 Interactive figures from O'Neill et al. (2024): 
 
-https://theo-oneill.github.io/localbubble/
+https://theo-oneill.github.io/magneticlocalbubble/
 
 ### Thanks to:
 
