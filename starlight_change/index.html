@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title> Local Bubble's 3D Magnetic Field</title>
+  <meta name="author" content="Theo O'Neill" />
+
+  <!-- Bootstrap core CSS -->
+  <link href="../page/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap custom CSS -->
+  <link href="../page/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light static-top mb-5 shadow">
+    <span class="navbar-text">Figures from "A 3D Map of the Local Bubble's Magnetic Field: Insights from Dust and Starlight Polarization" by O'Neill et al. (2024)    </span>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="https://theo-oneill.github.io/magneticlocalbubble/">Home</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+    <div class="pretty container-fluid d-flex justify-content-center">
+    <div class="row">
+      <div class="col-36">
+        <div class="card">
+          <div class="card-body" align="center">
+            <iframe class="iframe3d col-lg-36" src="../plots/sig_change_p_d.html"></iframe>
+            <div>
+              Significant change in starlight polarization fraction p_d inside vs. outside the Local Bubble.  Blue = significant change.  3D bfield by black vectors.  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+  <div class="pretty container-fluid d-flex justify-content-center">
+    <div class="row">
+      <div class="col-36">
+        <div class="card">
+          <div class="card-body" align="center">
+            <iframe class="iframe3d col-lg-36" src="../plots/sig_change_dtheta.html"></iframe>
+            <div>
+             Significant change in difference between starlight and Planck polarization angles outside Bubble. Blue = significant change.  3D bfield by black vectors. 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+  
+  
+  
+    <footer class="footer">
+    <div class="container">
+      <!-- Grid row-->
+      <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+        <!-- Grid column -->
+        <div class="col-md-3">
+            <a href="https://ui.adsabs.harvard.edu">Paper</a>
+        </div>
+        <!-- Grid column -->
+        <div class="col-md-6">
+           Authors: T. O'Neill, A. Goodman, J. Soler, C. Zucker, J. Han
+        </div>
+        <!-- Grid column -->
+        <div class="col-md-3">
+           <a class="nav-link" href="https://theo-oneill.github.io/magneticlocalbubble/">Home</a>
+        </div>
+      </div>
+    </div>
+  </footer>  
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="../page/vendor/jquery/jquery.slim.min.js"></script>
+  <script src="../page/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
