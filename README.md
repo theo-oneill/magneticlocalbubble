@@ -1,8 +1,8 @@
-# A 3D Map of the Local Bubble's Magnetic Field
+# HACs and IVCs in the Solar Neighborhood
 
-Interactive figures from O'Neill et al. (2024): 
+Interactive figures from O'Neill et al. (2025): 
 
-https://theo-oneill.github.io/magneticlocalbubble/
+https://theo-oneill.github.io/HACs_and_IVCs/
 
 ### Thanks to:
 
